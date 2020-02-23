@@ -1,0 +1,6 @@
+<!--pages/course/course.wxml-->
+<view>
+  <block wx:for="{{courses}}" wx:key="{{item.id}}">
+    <course-component bind:myevent="getValue" obj="{{item}}"/>
+  </block>
+</view>

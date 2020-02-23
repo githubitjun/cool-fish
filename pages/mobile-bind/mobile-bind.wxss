@@ -1,0 +1,36 @@
+/* pages/mobile-bind/mobile-bind.wxss */
+.my-inputs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100rpx;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-inputs .vcode{
+  margin-top: 40rpx;
+}
+
+.my-inputs text{
+  margin-top:30rpx;
+  color: #A2A2A2;
+  font-size: 24rpx;
+}
+
+.bind{
+  position: absolute;
+  left:125rpx;
+  bottom: 100rpx;
+  width: 500rpx;
+  height: 100rpx;
+  background-color: #FF547C;
+  line-height: 100rpx;
+  text-align: center;
+  border-radius: 80rpx;
+  box-shadow: 21rpx 0rpx 46rpx rgba(255,84,124,0.47);
+}
+
+.bind text{
+  color: #FFFFFF;
+  font-size: 40rpx;
+}

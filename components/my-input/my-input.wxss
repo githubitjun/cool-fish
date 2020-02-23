@@ -1,0 +1,22 @@
+/* components/my-input/my-input.wxss */
+.my-input{
+  background-color: #ffffff;
+  width: 660rpx;
+  height: 100rpx;
+  border-radius: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30rpx;
+  font-size: 30rpx;
+}
+
+.my-input input{
+  width:70%;
+  height: 100%;
+}
+
+.my-input .title{
+  font-size: 24rpx;
+  color: #333333
+}

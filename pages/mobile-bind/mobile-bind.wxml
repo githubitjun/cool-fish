@@ -1,0 +1,13 @@
+<!--pages/mobile-bind/mobile-bind.wxml-->
+<view>
+  <view class="my-inputs">
+    <!-- 手机号 -->
+    <my-input obj="{{mobile}}"/>
+    <!-- 验证码 -->
+    <my-input class="vcode" obj="{{vcode}}"/>
+    <text>绑定手机号成功后可免费获取三天VIP体验哦~</text>
+  </view>
+  <view bindtap="bindMobile" class="bind">
+    <text>绑定手机号</text>
+  </view>
+</view>

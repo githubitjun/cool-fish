@@ -1,0 +1,21 @@
+.course{
+  display: inline-block;
+  width:300rpx;
+  height: 160rpx;
+  /* background-color: red; */
+  margin-right: 10rpx;
+  border-radius: 10rpx;
+  padding-left: 10rpx;
+  padding-top: 10rpx;
+}
+
+.title{
+  color: #fff;
+  font-size: 12px;
+}
+
+.subtitle{
+  color: #fff;
+  margin-top: 10rpx;
+  font-size: 10px;
+}

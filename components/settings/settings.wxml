@@ -1,0 +1,15 @@
+<!--components/settings/settings.wxml-->
+<wxs src="../../utils/format.wxs" module="format"/>
+
+<view bindtap="goToDetail" data-type="{{obj.type}}" data-navigate-to="{{obj.navigateTo}}" class="settings">
+  <text>{{obj.title}}</text>
+  <block wx:if="{{obj.type === 'date'}}">
+    <text class="date">{{format.formatTime(obj.date)}}</text>
+  </block>
+  <block wx:elif="{{obj.type === 'arrow'}}">
+    <image src="{{obj.img_url}}"></image>
+  </block>
+  <block wx:elif="{{obj.type === 'switch'}}">
+    <switch checked/>
+  </block>
+</view>

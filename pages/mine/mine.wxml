@@ -1,0 +1,17 @@
+<view>
+  <!-- 头像部分 -->
+  <view class="header">
+    <image src="/images/头像 男孩.png"></image>
+    <text>酷酷</text>
+  </view>
+  <!-- 过期时间 -->
+  <view style="margin-top:20rpx;">
+    <settings obj="{{expiresDate}}"/>
+  </view>
+  <!-- 设置列表 -->
+  <view style="margin-top:20rpx;">
+    <block wx:for="{{settings}}" wx:key="{{item.id}}">
+      <settings obj="{{item}}"/>
+    </block>
+  </view>
+</view>

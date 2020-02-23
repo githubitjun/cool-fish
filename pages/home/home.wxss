@@ -1,0 +1,36 @@
+/* pages/home/home.wxss */
+@import "../../templates/tip1/tip1.wxss";
+@import "../../templates/tip2/tip2.wxss";
+@import "../../templates/course/course.wxss";
+@import "../../templates/video/video.wxss";
+swiper{
+  height: 400rpx;
+  width:750rpx;
+}
+
+swiper image{
+  width:100%;
+  height: 100%;
+}
+
+.tips{
+  display: flex;
+  justify-content: space-between;
+  padding:0 10rpx;
+}
+
+.scroll{
+  /* width:2000rpx; */
+  white-space: nowrap;
+  height: 180rpx;
+  /* background-color: red; */
+}
+
+.content{
+  padding:10rpx 0 0 10rpx;
+}
+
+.recommend .content{
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,15 @@
+<!--components/course-component/c.wxml-->
+<view class="course">
+  <image src="{{obj.img_url}}"></image>
+  <view class="title">
+    <view>
+      <text class="title1">{{obj.title}}</text>
+    </view>
+    <view>
+      <text class="subtitle">{{obj.subtitle}}</text>
+    </view>
+  </view>
+  <view bindtap="sendValueToParent" data-id="{{obj.id}}" data-is-full="{{obj.isFull}}" style="background-color:{{obj.isFull ? '#cacaca' : '#ff547c'}}" class="tips">
+    <text>{{obj.isFull ? '人数已满' : '了解课程'}}</text>
+  </view>
+</view>

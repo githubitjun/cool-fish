@@ -1,0 +1,9 @@
+<!--components/my-input/my-input.wxml-->
+<view class="my-input">
+  <input data-type="{{obj.type}}" type="number" bindblur='getValue' placeholder='{{obj.placeholder}}'></input>
+  <block wx:if="{{mytitle}}">
+    <view bindtap="getVCode">
+      <text style="color:{{isCountDown ? '#999' : '#000'}}" class="title">{{mytitle}}</text>
+    </view>
+  </block>
+</view>

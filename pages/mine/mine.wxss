@@ -1,0 +1,20 @@
+/* pages/mine/mine.wxss */
+.header{
+  width:750rpx;
+  height: 400rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.header image{
+  width:100rpx;
+  height: 100rpx;
+}
+
+.header text {
+  font-size: 16px;
+  margin-top:20rpx;
+}

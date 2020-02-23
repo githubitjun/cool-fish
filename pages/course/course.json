@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "course-component":"../../components/course-component/course-component"
+  }
+}

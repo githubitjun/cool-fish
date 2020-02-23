@@ -1,0 +1,14 @@
+.tip2{
+  display: flex;
+  align-items: center;
+}
+
+.tip2 image{
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.tip2 text{
+  font-size: 10px;
+  color:#999;
+}
